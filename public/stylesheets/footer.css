@@ -1,0 +1,207 @@
+/* footer */
+footer{
+    width: 100%;
+    background-image: url('/images/fondoposible.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-attachment: fixed;/* con esta prop hacemos que la imagen se quede en posicion fija y que no se mueva al hacer scroll */
+}
+
+footer section article.sobre-nosotros{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer section article.sobre-nosotros .content-sobre-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer section article.sobre-nosotros .content-sobre-nosotros img{
+    width: 100%;
+    padding: 20px;
+}
+
+footer section article.sobre-nosotros .descripcion-sobre-nosotros{
+    padding: 100px 20px 100px 20px;
+}
+
+footer section article.sobre-nosotros .descripcion-sobre-nosotros h2{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+footer section article.sobre-nosotros .descripcion-sobre-nosotros h2 span{
+    color: var(--colorVioleta);
+    font-size: 3rem;
+}
+
+footer section article.sobre-nosotros .descripcion-sobre-nosotros p{
+    color: #fff;
+}
+
+footer section article.medios-de-pago{
+    background-color: var(--colorVioleta);
+    padding: 75px 20px 75px 20px;
+}
+
+footer section article.medios-de-pago .descripcion-pagos h2{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+footer section article.medios-de-pago .descripcion-pagos span{
+    color: #fff;
+    font-size: 3rem;
+}
+
+footer section article.medios-de-pago .descripcion-pagos p{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+footer section article.medios-de-pago .content-pagos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer section article.medios-de-pago .content-pagos img{
+    width: 300px;
+}
+
+footer section article.entregas{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 20px 100px 20px;
+}
+
+footer section article.entregas .content-entregas{
+    display: none;/* mapa de entregas */
+}
+
+footer section article.entregas .descripcion-entregas h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+footer section article.entregas .descripcion-entregas h2 span{
+    color: var(--colorVioleta);
+    font-size: 3rem;
+}
+
+footer section article.entregas .descripcion-entregas p{
+    color: #fff;
+}
+
+footer .pie-de-pagina{
+    background-color: var(--colorNegro);
+    padding: 20px;
+}
+
+footer .pie-de-pagina .redes-sociales ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+}
+
+footer .pie-de-pagina .redes-sociales ul li a i{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+footer .pie-de-pagina .redes-sociales ul li a:hover{
+    color: var(--colorRosaFuerte);
+    transition: all .3s;
+}
+
+footer .pie-de-pagina article.copyright p{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+
+/* WHATSAPP */
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whatsapp .content-whatsapp{
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp a img{
+    width: 100%;
+}
+
+@media(min-width: 650px){
+    /* footer */
+    footer section article.sobre-nosotros{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    footer section article.sobre-nosotros .content-sobre-nosotros{
+        width: 50%;
+    }
+    
+    footer section article.sobre-nosotros .descripcion-sobre-nosotros{
+        width: 50%;
+    }
+    
+    footer section article.medios-de-pago{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    footer section article.medios-de-pago .descripcion-pagos{
+        width: 50%;
+    }
+    
+    footer section article.medios-de-pago .content-pagos{
+        width: 50%;
+    }
+}
+
+@media(min-width: 768px){
+    /* footer */
+    footer section article.entregas{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    footer section article.entregas .content-entregas{
+        display: block;/* mapa de entregas */
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    
+    footer section article.entregas .content-entregas img{
+        width: 100%;
+    }
+    
+    footer section article.entregas .content-entregas p{
+        color: #666;
+        font-weight: bold;
+    }
+    
+    footer section article.entregas .descripcion-entregas{
+        width: 45%;
+    }
+}

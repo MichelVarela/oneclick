@@ -63,7 +63,7 @@ window.addEventListener('load',()=>{
             {
                 breakpoint: 1326,
                 settings: {
-                    slidesToShow: 6,
+                    slidesToShow: 5,
                     slidesToScroll: 1,
                     
                 }
